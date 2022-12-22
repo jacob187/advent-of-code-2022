@@ -1,0 +1,15 @@
+{
+  "name": "advent-of-code-2022",
+  "version": "0.0.1",
+  "description": "Advent of Code Solutions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacob187/advent-of-code-2022.git"
+  },
+  "author": "Jacob Cohen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacob187/advent-of-code-2022/issues"
+  },
+  "homepage": "https://github.com/jacob187/advent-of-code-2022#readme"
+}
