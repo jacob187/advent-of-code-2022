@@ -1,10 +1,10 @@
-const fs = require('fs');
-const input = fs.readFileSync('./input.txt', 'utf-8');
-const rucksacks = input.split('\n');
+import { readFileSync } from "fs";
+const input = readFileSync("./input.txt", "utf-8");
+const rucksacks = input.split("\n");
 
 //Part One Solution
 const sameItems = ([one, two]) =>
-  one.split('').find((item) => two.includes(item));
+  one.split("").find((item) => two.includes(item));
 
 const numbericalValue = (item) => {
   if (item.charCodeAt(0) < 97) {
@@ -34,7 +34,7 @@ console.log(sumCommonItems);
 
 //Part Two Solution
 const groupBadge = ([one, two, three]) => {
-  return one.split('').find((item) => {
+  return one.split("").find((item) => {
     return two.includes(item) && three.includes(item);
   });
 };

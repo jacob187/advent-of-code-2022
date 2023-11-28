@@ -1,5 +1,5 @@
-const fs = require("fs");
-const input = fs.readFileSync("./input.txt", "utf-8");
+import { readFileSync } from "fs";
+const input = readFileSync("./input.txt", "utf-8");
 const game = input.split("\n");
 
 /**

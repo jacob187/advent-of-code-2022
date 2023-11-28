@@ -2,6 +2,7 @@
   "name": "advent-of-code-2022",
   "version": "0.0.1",
   "description": "Advent of Code Solutions",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jacob187/advent-of-code-2022.git"

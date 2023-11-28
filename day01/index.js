@@ -1,5 +1,5 @@
-const fs = require("fs");
-const input = fs.readFileSync("./input.txt", "utf-8");
+import { readFileSync } from "fs";
+const input = readFileSync("./input.txt", "utf-8");
 const caloriesOfEleves = input.split("\n\n");
 
 //Part One Solution One
